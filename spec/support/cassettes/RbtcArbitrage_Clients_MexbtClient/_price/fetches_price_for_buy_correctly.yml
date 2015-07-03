@@ -1,0 +1,65 @@
+---
+http_interactions:
+- request:
+    method: post
+    uri: https://public-api.mexbt.com/v1/ticker
+    body:
+      encoding: UTF-8
+      string: '{"productPair":"btcmxn"}'
+    headers:
+      Accept:
+      - "*/*; q=0.5, application/xml"
+      Accept-Encoding:
+      - gzip, deflate
+      Content-Length:
+      - '24'
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - cloudflare-nginx
+      Date:
+      - Thu, 02 Jul 2015 21:15:51 GMT
+      Content-Type:
+      - application/json
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Set-Cookie:
+      - __cfduid=d477ac55e0597bce9ebd7b3445bf6e58f1435871751; expires=Fri, 01-Jul-16
+        21:15:51 GMT; path=/; domain=.mexbt.com; HttpOnly
+      Access-Control-Allow-Origin:
+      - https://mexbt.com
+      Access-Control-Allow-Credentials:
+      - 'true'
+      Access-Control-Allow-Headers:
+      - X-Requested-With, Content-Type, Accept, Authorization, Origin
+      Access-Control-Allow-Methods:
+      - GET, PUT, POST, DELETE
+      Access-Control-Max-Age:
+      - '86400'
+      Strict-Transport-Security:
+      - max-age=15552000; includeSubDomains; preload
+      X-Content-Type-Options:
+      - nosniff
+      Cf-Ray:
+      - 1ffd5e4f4d640324-MIA
+      Content-Encoding:
+      - gzip
+    body:
+      encoding: ASCII-8BIT
+      string: !binary |-
+        H4sIAAAAAAAAA1yNzUrEMBRG3+WuQ8jNzW3a7GQ2rhyFeYFOG20xnUh+lEF8
+        d2mhUlx+5ztwvmGa3yZwBpEkCQh9LuCosyQZBVzncVssWxbwGUNdPDijJOvW
+        ErVmh9pMCRySkpoVma7Rx+c5xbEORYNjIrZWWoMdctOwgBC/1gR30hoBfX5f
+        V4vSoIBLLH3Q5jG9lPsl9aMf/8X/hL2wW9gYZC0JyShq7MF8qssmZXBsBWQf
+        wjmNPp1ivRVwmgVc6/2ISAm41eX8ekq+L367MjglYM4Pw+A/ylosqfqfXwAA
+        AP//AwDTuWrJTwEAAA==
+    http_version: 
+  recorded_at: Thu, 02 Jul 2015 21:15:50 GMT
+recorded_with: VCR 2.8.0

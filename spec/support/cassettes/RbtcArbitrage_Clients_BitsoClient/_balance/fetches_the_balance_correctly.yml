@@ -1,0 +1,107 @@
+---
+http_interactions:
+- request:
+    method: post
+    uri: https://api.bitso.com/v2/balance
+    body:
+      encoding: US-ASCII
+      string: key=dTNlkqDYJZ&nonce=14357911850743&signature=CD19FE44228B4FD2A48AA79786990718653D1F6FFF74462C0A0EF074F776C346
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+      Content-Type:
+      - application/x-www-form-urlencoded
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - cloudflare-nginx
+      Date:
+      - Wed, 01 Jul 2015 22:53:04 GMT
+      Content-Type:
+      - application/json
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Set-Cookie:
+      - __cfduid=d3d625f4786c742b33d8dada30d89675a1435791184; expires=Thu, 30-Jun-16
+        22:53:04 GMT; path=/; domain=.bitso.com; HttpOnly
+      - ci_session=e7969d6cb1f22fcaee3c0b47c6696a57; expires=Thu, 02-Jul-2015 00:53:04
+        GMT; Max-Age=7200; path=/;HttpOnly;Secure
+      Bs:
+      - bx
+      X-Frame-Options:
+      - sameorigin
+      X-Xss-Protection:
+      - 1; mode=block
+      X-Content-Type-Options:
+      - nosniff
+      X-Permitted-Cross-Domain-Policies:
+      - master-only
+      Cf-Ray:
+      - 1ff5af544f4c1816-MIA
+    body:
+      encoding: UTF-8
+      string: '{"btc_available":"0.00479943","btc_reserved":"0.00000000","btc_balance":"0.00479943","mxn_available":"0.00","mxn_reserved":"0.00","mxn_balance":"0.00","fee":"1.0000"}'
+    http_version: 
+  recorded_at: Wed, 01 Jul 2015 22:53:05 GMT
+- request:
+    method: post
+    uri: https://api.bitso.com/v2/balance
+    body:
+      encoding: US-ASCII
+      string: key=dTNlkqDYJZ&nonce=14357911857497&signature=BFFB2AFB39DBF93CFAD200A93FB938A7CA742C62B14F2F74BDDC4D474C4EF515
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+      Content-Type:
+      - application/x-www-form-urlencoded
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - cloudflare-nginx
+      Date:
+      - Wed, 01 Jul 2015 22:53:05 GMT
+      Content-Type:
+      - application/json
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Set-Cookie:
+      - __cfduid=d194a4c3e3793b6c6d3fd5b2c756fd66c1435791185; expires=Thu, 30-Jun-16
+        22:53:05 GMT; path=/; domain=.bitso.com; HttpOnly
+      - ci_session=272a30ad441c6996dcf6527f2be500c7; expires=Thu, 02-Jul-2015 00:53:05
+        GMT; Max-Age=7200; path=/;HttpOnly;Secure
+      Bs:
+      - bx
+      X-Frame-Options:
+      - sameorigin
+      X-Xss-Protection:
+      - 1; mode=block
+      X-Content-Type-Options:
+      - nosniff
+      X-Permitted-Cross-Domain-Policies:
+      - master-only
+      Cf-Ray:
+      - 1ff5af5aae631816-MIA
+    body:
+      encoding: UTF-8
+      string: '{"btc_available":"0.00479943","btc_reserved":"0.00000000","btc_balance":"0.00479943","mxn_available":"0.00","mxn_reserved":"0.00","mxn_balance":"0.00","fee":"1.0000"}'
+    http_version: 
+  recorded_at: Wed, 01 Jul 2015 22:53:06 GMT
+recorded_with: VCR 2.8.0

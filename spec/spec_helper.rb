@@ -21,6 +21,7 @@ VCR.configure do |c|
   c.cassette_library_dir = 'spec/support/cassettes'
   c.hook_into :webmock # or :fakeweb
   c.ignore_localhost = true
+  c.allow_http_connections_when_no_cassette = true
   c.ignore_hosts 'codeclimate.com'
   c.ignore_request do |request|
     # true

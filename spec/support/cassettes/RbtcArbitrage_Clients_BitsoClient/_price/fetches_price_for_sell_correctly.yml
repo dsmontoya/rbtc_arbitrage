@@ -1,0 +1,103 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://api.bitso.com/v2/ticker
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - cloudflare-nginx
+      Date:
+      - Thu, 02 Jul 2015 00:42:05 GMT
+      Content-Type:
+      - application/json
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Set-Cookie:
+      - __cfduid=d97609b33c789f057cfeb36ce630ea5bb1435797725; expires=Fri, 01-Jul-16
+        00:42:05 GMT; path=/; domain=.bitso.com; HttpOnly
+      - ci_session=830324029fa2adf8ed69ec9d244bcdb5; expires=Thu, 02-Jul-2015 02:42:05
+        GMT; Max-Age=7200; path=/;HttpOnly;Secure
+      Bs:
+      - bx
+      X-Frame-Options:
+      - sameorigin
+      X-Xss-Protection:
+      - 1; mode=block
+      X-Content-Type-Options:
+      - nosniff
+      X-Permitted-Cross-Domain-Policies:
+      - master-only
+      Cf-Ray:
+      - 1ff64f05470b07c7-MIA
+    body:
+      encoding: UTF-8
+      string: '{"high":"4145.00","last":"4094.94","timestamp":"1435797725","bid":"4000.01","vwap":"4030.27","volume":"58.88002335","low":"4000.00","ask":"4094.94"}'
+    http_version: 
+  recorded_at: Thu, 02 Jul 2015 00:42:06 GMT
+- request:
+    method: get
+    uri: https://api.bitso.com/v2/ticker
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - cloudflare-nginx
+      Date:
+      - Thu, 02 Jul 2015 00:42:06 GMT
+      Content-Type:
+      - application/json
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Set-Cookie:
+      - __cfduid=dac6badf09aa3e94f186cb7723abfaf1d1435797726; expires=Fri, 01-Jul-16
+        00:42:06 GMT; path=/; domain=.bitso.com; HttpOnly
+      - ci_session=3ba4bac81ab09193ecaa362d0fb2a6ab; expires=Thu, 02-Jul-2015 02:42:06
+        GMT; Max-Age=7200; path=/;HttpOnly;Secure
+      Bs:
+      - bx
+      X-Frame-Options:
+      - sameorigin
+      X-Xss-Protection:
+      - 1; mode=block
+      X-Content-Type-Options:
+      - nosniff
+      X-Permitted-Cross-Domain-Policies:
+      - master-only
+      Cf-Ray:
+      - 1ff64f0bcd531804-MIA
+    body:
+      encoding: UTF-8
+      string: '{"high":"4145.00","last":"4094.94","timestamp":"1435797726","bid":"4000.01","vwap":"4030.27","volume":"58.88002335","low":"4000.00","ask":"4094.94"}'
+    http_version: 
+  recorded_at: Thu, 02 Jul 2015 00:42:07 GMT
+recorded_with: VCR 2.8.0

@@ -1,0 +1,127 @@
+---
+http_interactions:
+- request:
+    method: post
+    uri: https://private-api.mexbt.com/v1/balance
+    body:
+      encoding: UTF-8
+      string: '{"apiKey":"bc40add602f2b08c353eb15a4b48ffd1","apiNonce":14358725556447,"apiSig":"494EBE73E9435AE1DA5BD4CC465E88DA390056723DE05E3FCF4C90563924FAD4"}'
+    headers:
+      Accept:
+      - "*/*; q=0.5, application/xml"
+      Accept-Encoding:
+      - gzip, deflate
+      Content-Length:
+      - '147'
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - cloudflare-nginx
+      Date:
+      - Thu, 02 Jul 2015 21:29:17 GMT
+      Content-Type:
+      - application/json
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Set-Cookie:
+      - __cfduid=d3361d02807a26b552de23cc612351cfd1435872557; expires=Fri, 01-Jul-16
+        21:29:17 GMT; path=/; domain=.mexbt.com; HttpOnly
+      Access-Control-Allow-Origin:
+      - https://mexbt.com
+      Access-Control-Allow-Credentials:
+      - 'true'
+      Access-Control-Allow-Headers:
+      - X-Requested-With, Content-Type, Accept, Authorization, Origin
+      Access-Control-Allow-Methods:
+      - GET, PUT, POST, DELETE
+      Access-Control-Max-Age:
+      - '86400'
+      Strict-Transport-Security:
+      - max-age=15552000; includeSubDomains; preload
+      X-Content-Type-Options:
+      - nosniff
+      Cf-Ray:
+      - 1ffd71fa6d440328-MIA
+      Content-Encoding:
+      - gzip
+    body:
+      encoding: ASCII-8BIT
+      string: !binary |-
+        H4sIAAAAAAAAA5ySQYvCMBCF/8ucwxJdq25u2yx4qSK2uywsHmIysIXaSExO
+        4n+XNlXaLaFrj5N5+XjzZi4gnTFYyhzPwH4uUIojAoPP9AMIHEQhSonAKIFf
+        XShg9Eoemjjjg5rkH5r192aQE++SQU26CnneEzgZrZy0W5EbP2jrYeNnTjLu
+        rbRaXCsENokIWCMUcu1KW8dRl1+6cFVcdSqtXw0wDgPnXeCkKR/AF0pny+lr
+        FFV598lJxn36rVZjddEl07/kINCvvA9cjgLGGQ8B38YC/RH0HE7vMz69HX8x
+        feB9HUHgnkB+fpcSTxYVMGscXm8AAAD//wMALho8ZEsDAAA=
+    http_version: 
+  recorded_at: Thu, 02 Jul 2015 21:29:16 GMT
+- request:
+    method: post
+    uri: https://private-api.mexbt.com/v1/balance
+    body:
+      encoding: UTF-8
+      string: '{"apiKey":"bc40add602f2b08c353eb15a4b48ffd1","apiNonce":14358725567249,"apiSig":"9986B1BDC47B0709893300D8D07A0FF2ACC40253BF423178366CDC336C392FA3"}'
+    headers:
+      Accept:
+      - "*/*; q=0.5, application/xml"
+      Accept-Encoding:
+      - gzip, deflate
+      Content-Length:
+      - '147'
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - cloudflare-nginx
+      Date:
+      - Thu, 02 Jul 2015 21:29:18 GMT
+      Content-Type:
+      - application/json
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Set-Cookie:
+      - __cfduid=dc087305be0d62d01202e44ec77d0b2a01435872558; expires=Fri, 01-Jul-16
+        21:29:18 GMT; path=/; domain=.mexbt.com; HttpOnly
+      Access-Control-Allow-Origin:
+      - https://mexbt.com
+      Access-Control-Allow-Credentials:
+      - 'true'
+      Access-Control-Allow-Headers:
+      - X-Requested-With, Content-Type, Accept, Authorization, Origin
+      Access-Control-Allow-Methods:
+      - GET, PUT, POST, DELETE
+      Access-Control-Max-Age:
+      - '86400'
+      Strict-Transport-Security:
+      - max-age=15552000; includeSubDomains; preload
+      X-Content-Type-Options:
+      - nosniff
+      Cf-Ray:
+      - 1ffd7200fe9d0322-MIA
+      Content-Encoding:
+      - gzip
+    body:
+      encoding: ASCII-8BIT
+      string: !binary |-
+        H4sIAAAAAAAAA5zSWwvCIBgG4P/yXUuswzp41wy6WRG1IoguTD9osOYwvYr+
+        ezQpKhurXaqvD6+HCwirNeYixTPQ3QVyfkKgsF5NgMCBZzwXCDQgcFSZBBpc
+        yTMTJaw2E/+QmW3ntZloGddmVtOqznsChVbSCrPgqXYHfZmYP7u6Ki9LTEkE
+        2g4JGM0lMmVzU9LlcKMye99atvDBqBrsv4PtT7AVBL1hpxuG3+U4Ye72fXnQ
+        qGqcMPfkPjhsBEbV4Kgp6D6BB3Yewt+g+zE++HiOSnBPID2PhcDCoARqtMXr
+        DQAA//8DAC4aPGRLAwAA
+    http_version: 
+  recorded_at: Thu, 02 Jul 2015 21:29:17 GMT
+recorded_with: VCR 2.8.0
