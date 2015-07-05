@@ -28,8 +28,9 @@ describe RbtcArbitrage::Clients::MexbtClient do
           buy: 1.001,
           sell: 0.999,
         }[action]
-        mexbt_options = {amount: 0.01, price: trade_price}
-        mexbt.create_order.should_receive(action).with(mexbt_options)
+        mexbt_options = {amount: 0.01, price: trade_price, side: action,
+          currency_pair: 'btcmxn'}
+        mexbt.should_receive(:create_order).with(mexbt_options)
         client.trade(action)
       end
     end
