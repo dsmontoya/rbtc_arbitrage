@@ -34,4 +34,5 @@ Gem::Specification.new do |spec|
   spec.add_dependency "bitstamp-rbtc-arbitrage", "0.4.0"
   spec.add_dependency "tzinfo", '~> 1.1'
   spec.add_dependency "mail", "2.6.1"
+  spec.add_dependency 'mexbt', "0.0.9"
 end
